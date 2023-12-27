@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+<title> Drop-Down List</title>
+</head>
+<body>
+<form>
+      <select name="Places">
+	       <option value="1">Kengunte</option>
+		   <option value="2">Kengunte</option>
+           <option value="3">Kengunte</option>
+		   <option value="4">Kengunte</option>
+	  </select>
+</form>
+</body>
+</html>	  

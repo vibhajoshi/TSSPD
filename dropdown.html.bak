@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<title> Drop-Down List</title>
+<link rel="stylesheet" href="dropdown.css">
+<script src="dropdown.js"></script>
+</head>
+<body>
+
+   <div class="dropdown">
+     <div class="select">
+	   <span class="selected">Figma</span>
+	   <div class="caret"></div>
+	</div>
+   <ul class="menu">
+     <li>Framer</li>
+     <li>Sketch</li>
+     <li>Invision Studio</li>
+     <li class="active">Figma</li>
+     <li>Adobe XD</li>
+	</ul>
+	</div>
+	
+	<div class="dropdown">
+	  <div class="select">
+	    <span class="active">Facebook</li>
+		 <li>Instagram</li>
+		 <li>Twitter</li>
+		 <li>LinkedIn</li>
+		 <li>Tik Tok</li>
+		</ul>
+	</div>
+
+    
+	
+</body>
+</html>	  

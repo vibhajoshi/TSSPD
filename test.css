@@ -1,0 +1,26 @@
+#lists {
+ border: 2px solid blue;
+ position: relative;
+ width: 300px;
+}
+
+#list_one {
+ width: 100px;
+ border: 2px solid red;
+}
+
+#list_one ol {
+ display: none;
+}
+
+#list_two {
+ width: 100px;
+ border: 2px solid green;
+ position: relative;
+ top: -25px;
+ left: 200px;
+}
+
+#list_two ol {
+ display: none;
+}

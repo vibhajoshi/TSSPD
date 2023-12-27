@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Signal</title>
+  <link rel="stylesheet" href="circle.css">
+  
+  </head>
+<body onload="change()"> 
+
+<script type="text/javascript">
+   var i =0;
+   var col=new Array("yellow","green","red");
+   function change()
+   {
+     document.body.style.backgroundColor=col[i];
+	 i++;
+	 if(i>col.length)
+	   {
+	   i=0;
+	   }
+	   window.setTimeout("change()",60000);
+	 }
+	 </script>
+
+<div class="motion">
+    <div class="circle"></div>
+	</div>
+
+</body>
+</html>	
+ 

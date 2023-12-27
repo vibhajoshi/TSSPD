@@ -1,0 +1,23 @@
+$(document).ready(function(){
+	
+	var body = $('body');
+	
+	var color = [
+	     'red',
+		 'yellow',
+		 'green'
+		 ];
+		 
+		 
+	var i = 0;
+	function changeColor(){
+		body.css('background',red);
+		i++ ;
+		if(i>=color.length){
+			i=0;
+		}
+	}
+	changeColor();
+	setInterval(changeColor,1000);
+	
+}

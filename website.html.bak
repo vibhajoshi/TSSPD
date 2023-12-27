@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="website.css" />
+    <title>TS&SPD</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <h1 class="logo"><a href="/index.html"></a></h1>
+        <ul>
+          <li><a href="#" class="current">Home</a></li>
+          <li><a href="aboutus.html">About</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="container">
+        <h1>Welcome To TS&SPD Website</h1>
+        <h2>Traffic is a problem.! Let's find the solution.</h2>
+      </div>
+    </div>
+    <section class="container content">
+      <h2>Traffic issues</h2>
+      <p>Bangloreans basically love this city because of its extra-ordinary facilities. But the only thing which they doesn't love is "THE TRAFFIC". So taken a baby step to solve such a huge problem of Silicon City.</p>
+      
+    </section>
+    <div class="credit">Made with <span style="color:tomato">❤</span> by Manasa & Vibha</div>
+    <script src="website.js"></script>
+  </body>
+</html>
